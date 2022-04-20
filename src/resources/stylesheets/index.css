@@ -1,0 +1,68 @@
+@font-face {
+    font-family: 'Spartan';
+    src: url("../fonts/Spartan-Bold.ttf");
+}
+
+body {
+    background-image: linear-gradient(294.83deg, rgba(255, 214, 0, 0.2) 8.05%, rgba(111, 234, 15, 0.2) 83.27%),
+        linear-gradient(0deg, #FFFFFF, #FFFFFF);
+    font-family: "Spartan", sans-serif;
+}
+
+.topnav {
+    background-color: #FFFFFFAA;
+    overflow: hidden;
+    margin: -8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.topnav a{
+    color: black;
+    font-weight: bold;
+    font-size: 17px;
+    text-decoration: none;
+    padding: 14px 16px;
+}
+
+.leftTopNav {
+    float: left;
+    text-align: center;
+}
+
+.rightTopNav {
+    float: right;
+    text-align: center;
+}
+
+#ChromagicianNav {
+    color: #696955;
+    text-decoration: underline;
+    font-size: 30px;
+    margin: auto;
+    margin-left: 140px;
+    text-align: center;
+}
+
+#navLogo {
+    width: 45px;
+    height: 45px;
+    margin-left: 5px;
+}
+
+#introText {
+    margin: 50px;
+}
+
+#popularDiv {
+    margin-left: 50px;
+}
+
+#recentDiv {
+    margin-left: 50px;
+}
+
+#likedDiv {
+    margin-left: 50px;
+}
